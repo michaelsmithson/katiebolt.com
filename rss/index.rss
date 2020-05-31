@@ -1,0 +1,159 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Katie Codes</title><description>Thoughts, stories and ideas.</description><link>http://www.katiebolt.com/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 11 May 2020 09:22:43 GMT</lastBuildDate><atom:link href="http://www.katiebolt.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Concept designs for WordPress blog</title><description>&lt;p&gt;I am currently working on the design for my cousin's blog. She will be using Wordpress so I will be building a custom template for her. So far I have 2 simple layouts based on her brief and am working on a 3rd one. From there we can then narrow down what will work for her and proceed from there.&lt;/p&gt;
+
+&lt;p style="text-align:Center"&gt;Layout idea #1:&lt;/p&gt;  
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-R36oGKvydeo/VQqEeKLBOdI/AAAAAAAAGZY/JEb-TRdmav8/s500/layout.jpg" alt="Layout idea #1"&gt;&lt;/p&gt;
+
+&lt;p style="text-align:Center"&gt;Layout idea #2:&lt;/p&gt;  
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/-Xxf3fQnd2PY/VQqEdxwh_sI/AAAAAAAAGZU/9n-tlzyffQo/s500/layout-2.jpg" alt="Layout idea #2"&gt;&lt;/p&gt;
+
+&lt;p&gt;I normally use InDesign for laying out my initial designs as I find it more flexible than Photoshop for moving elements around and playing with text.&lt;/p&gt;</description><link>http://www.katiebolt.com/concept-designs-for-wordpress-blog/</link><guid isPermaLink="false">5a9c083e-6309-4773-8e21-c36cc902b40d</guid><category>WordPress</category><category>web design</category><dc:creator>Katie Bolt</dc:creator><pubDate>Thu, 19 Mar 2015 08:25:42 GMT</pubDate></item><item><title>Architecting Happiness UX Conference 2015</title><description>&lt;p&gt;At the end of February I flew to Wellington to attend the &lt;a href="http://wiadwellington.com/"&gt;Architecting Happiness UX Conference&lt;/a&gt; for &lt;a href="http://2015.worldiaday.org/"&gt;World IA Day 2015&lt;/a&gt;. Having travelled up by myself and not knowning anyone else attending I was a bit nervous but once it started I was hooked!&lt;/p&gt;
+
+&lt;p&gt;There were 9 speakers throughout the day all talking about the idea of Architecting Happiness in relation to the user experience and although they were all talking about the same topic they came at it from so many different angles. &lt;/p&gt;
+
+&lt;p&gt;There was everything from Jesse James Garrett taking us through the emotional rollercoaster of UX and its broader reaches (now very keen to see the documentary Visions of Light about the art of cinematography, as well as to read 'The Elements of User Experience'), to Trent Mankelow from Trade Me taking us through some of the steps for actually creating a happy user experience (as well as some things that aren't so happy!). I came out super inspired to start creating some awesome work!&lt;/p&gt;</description><link>http://www.katiebolt.com/architecting-happiness-ux-conference-2015/</link><guid isPermaLink="false">86cb7333-7f4a-4f26-a670-d6b75c5836fe</guid><category>web design</category><dc:creator>Katie Bolt</dc:creator><pubDate>Mon, 09 Mar 2015 23:00:00 GMT</pubDate></item><item><title>Twilight and Shadow blog</title><description>&lt;p&gt;&lt;a href="http://blog.katiebolt.com/"&gt;Twilight and Shadow&lt;/a&gt; is my own personal blog documenting sporting and other adventures. I migrated it over from blogger to &lt;a href="https://ghost.org/"&gt;ghost&lt;/a&gt; so I could learn some new things and have a bit of fun along the way. Ghost uses node.js and handlebar templating.&lt;/p&gt;
+
+&lt;pre rel="Handlebars" class="lang-html"&gt;  
+&lt;code class="html"&gt;  
+{{#foreach posts}}
+    &amp;lt;article class="{{post_class}}"&amp;gt;
+        &amp;lt;header class="post-header"&amp;gt;
+            &amp;lt;span class="post-meta"&amp;gt;&amp;lt;time datetime="{{date format='YYYY-MM-DD'}}"&amp;gt;{{date format="DD MMMM YYYY"}}&amp;lt;/time&amp;gt;&amp;lt;/span&amp;gt;
+            &amp;lt;h1&amp;gt;&amp;lt;a href="{{url}}"&amp;gt;{{{title}}}&amp;lt;/a&amp;gt;&amp;lt;/h1&amp;gt;
+        &amp;lt;/header&amp;gt;
+        &amp;lt;section&amp;gt;
+            &amp;lt;p&amp;gt;{{content}}&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;span class="post-meta"&amp;gt;{{tags}}&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+        &amp;lt;a href='{{url absolute="true"}}#discourse-comments'&amp;gt;Comment on this post&amp;lt;/a&amp;gt;
+    &amp;lt;/article&amp;gt;
+{{/foreach}}
+
+&lt;/code&gt;  
+&lt;/pre&gt;
+
+&lt;p&gt;I designed my own personal theme, laying out my initial design in Adobe InDesign, then putting together a basic html version before setting up the real template. My next task is to make the template responsive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-ZcBbWZVlcHk/VP6gWF_dRYI/AAAAAAAAGWc/a6vsxJCHDVI/s800/twilight-header.jpg" alt="Twilight and Shadow"&gt;&lt;/p&gt;</description><link>http://www.katiebolt.com/twilight-and-shadow/</link><guid isPermaLink="false">f7f0e0e3-ae86-4eee-8b65-287cd66b30f6</guid><category>my work</category><dc:creator>Katie Bolt</dc:creator><pubDate>Mon, 09 Mar 2015 09:35:47 GMT</pubDate></item><item><title>Canterbury Rogaine Series</title><description>&lt;p&gt;My final project was making a website for a friend who organises rogaines and adventure racing events. This site is live at &lt;a href="http://canterburyrogaine.com/"&gt;canterburyrogaine.com&lt;/a&gt;. The Canterbury Rogaine site provides information for coming events, an online entry system for these events, and results/reports from the events when they have completed.&lt;/p&gt;
+
+&lt;p&gt;The main challenge in this site has been implementing the entry system, as each event has different courses, grades, and entry fee structures. Additionally, adding in support for adventure races meant that fees would then be per team rather than per person but rogaines were still charged per person. The entry system is a constantly evolving project.&lt;/p&gt;
+
+&lt;p&gt;Additionally the CMS/admin side of the website allows the administrator to configure details for a new event, upload results files once events are finished, add event reports and edit the text found on the home page. I am also planning to make some of the other pages have editable sections (for example, the About Us page, allowing the administrator to update content as appropriate). The entries for each event are also editable. If the same name and email address is used again to enter a 2nd event the database will recognise this and use the same person rather than adding a new database entry.&lt;/p&gt;
+
+&lt;p&gt;Below is the original table structure for the Canterbury Rogaine Series database. It has since evolved slightly to account for new features required:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-5Ui5-uRNCyE/VP6ruE3lKWI/AAAAAAAAGW0/MIQDgscjnIk/s450/canterbury-rogaine-table-structure.jpg" alt="Initial table structue for the Canterbury Rogaine Series database"&gt;&lt;/p&gt;
+
+&lt;p&gt;The site is built using ASP.NET web forms. As with my Real Estate ASP.NET assignment, I found the built-in data source controls limiting so mostly used the code-behind pages get the site to do what was required. It also helped my knowledge of using C#.&lt;/p&gt;</description><link>http://www.katiebolt.com/canterbury-rogaine-series/</link><guid isPermaLink="false">4fde5c8f-05a6-4bcf-b525-365e6f8261ac</guid><category>my work</category><category>vision college assignments 2013</category><dc:creator>Katie Bolt</dc:creator><pubDate>Sun, 08 Mar 2015 09:30:00 GMT</pubDate></item><item><title>ASP.Net/C# Assignment: Newbode Real Estate</title><description>&lt;p&gt;For my ASP.Net/C# assignment at Vision College the brief was to create a Real Estate website with a custom CMS. From the CMS you are able to add and update and delete regions, districts and suburbs (each property must be placed within one of these suburbs):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh5.googleusercontent.com/-eTcLJ08Ze5U/VPuUG4DqxaI/AAAAAAAAGS8/0z2twbvOJ5s/s500/newbode-regions.jpg" alt="Updating the district the suburb belongs to"&gt;&lt;/p&gt;
+
+&lt;p&gt;You are also able to add, edit and delete property listings. Each property requires you to fill out all the details on the form before allowing you to proceed. If there are no pictures for the property it will use a default placeholder image. If you are wanting to find a certain property you wish to edit you can use the region/district/suburb filters to narrow down your options.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/-TqaM811R8YY/VPuV9taVs7I/AAAAAAAAGTM/3xbW1iHxfhk/s600/newbode-property-edit.jpg" alt="Editing a property"&gt;&lt;/p&gt;
+
+&lt;p&gt;The CMS also allows you to add property news items which appear on the left-hand side of the site and to add new office locations (shown on the left-hand side of the site when you are on the &lt;a href="http://katiedemo.cloudapp.net/newboderealestate/ContactUs.aspx"&gt;Contact Us&lt;/a&gt; page). You can also add, edit and delete new admin users.&lt;/p&gt;
+
+&lt;p&gt;If you are browsing the site you are able to create an account so you can save properties to a wishlist. If you try to add a property to your wishlist and you are not logged in you will be prompted to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh5.googleusercontent.com/-8_HQCSIGXTI/VPuSomHvHaI/AAAAAAAAGSo/oRwbgB7dYVs/s600/newbode-wishlist.jpg" alt="Adding properties to my wishlist"&gt;&lt;/p&gt;
+
+&lt;p&gt;The front-end is built using an overall master page which holds the header, footer and main menu. This allowed me to use the same master page for the entire site (as the home page does not use a sidebar). The left sidebar and main content section are laid out within the child master page. I then set up a user control file that holds all the layout and code for the property search. The code is contained within an UpdatePanel which allows you to refresh specific parts of the page rather than refreshing the entire page with a postback. This was important for me as I didn't want the page to keep having to reload every time you selected a different region for example (as once you select a region it needs to search the database to find the corresponding districts etc).&lt;/p&gt;
+
+&lt;p&gt;I quickly discovered the limitations of the built-in data source controls and found it easier to work with the code-behind pages which certainly improved my C#!&lt;/p&gt;
+
+&lt;p&gt;I've used several different jQuery plugins on the front-end of this site. The home page slideshow is using &lt;a href="http://daledavies.github.io/jQuery-Easy-Slides/"&gt;jQuery Easy Slides&lt;/a&gt;. It's just a basic slider that transitions between various images.&lt;/p&gt;
+
+&lt;p&gt;The property listings page use a version of &lt;a href="http://www.gmarwaha.com/jquery/jcarousellite/"&gt;jCarouselLite&lt;/a&gt; allowing you to scroll through the photos. The property details page uses a different version of &lt;a href="http://www.gmarwaha.com/jquery/jcarousellite/"&gt;jCarouselLite&lt;/a&gt; to scroll through the thumbnail photos and &lt;a href="http://fancybox.net/"&gt;fancybox&lt;/a&gt; for the image gallery once you click on a thumbnail.&lt;/p&gt;</description><link>http://www.katiebolt.com/newbode-real-estate/</link><guid isPermaLink="false">1168adf5-6958-453c-bad5-54fa4f310941</guid><category>my work</category><category>vision college assignments 2013</category><dc:creator>Katie Bolt</dc:creator><pubDate>Sat, 07 Mar 2015 23:00:00 GMT</pubDate></item><item><title>PHP Assignment: Lido Cinemas</title><description>&lt;p&gt;For my PHP/MySQL assignment the brief was to create a &lt;a href="http://katiedemo.cloudapp.net/lidocinemas/"&gt;website for the Lido Cinema&lt;/a&gt; including a functioning backend CMS for adding movies and session times. I had fun putting together the artwork and designing the layout for this site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh6.googleusercontent.com/-1hOpotL64oo/VQAN3kYbMBI/AAAAAAAAGYU/-rXzgeZfiqM/s600/0fdn8v96.jpg" alt="Lido Cinemas"&gt;&lt;/p&gt;
+
+&lt;p&gt;The CMS allows you to add, edit and delete cinemas, movies, session times (for the date and time I used the jQuery timepicker), the pricing structure for tickets, and admin users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh6.googleusercontent.com/-NxS7QEbxsVo/VQANSq83DZI/AAAAAAAAGYE/awpwDqSNbLg/s800/the-day-of-the-doctor-2.jpg" alt="Add a new movie"&gt;&lt;/p&gt;
+
+&lt;p&gt;Once I'd finished the site my tutor suggested I try adding the functionality to book tickets to a session. This required a slight reworking of my table structure and some more jQuery but was a good challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-ygqn_mK6ke4/VQANumK5yuI/AAAAAAAAGYM/ZcHdmNwwpyQ/s400/lido-booking.jpg" alt="Buying tickets"&gt;&lt;/p&gt;</description><link>http://www.katiebolt.com/lido-cinemas/</link><guid isPermaLink="false">013eeb64-395a-4cf4-a960-e87b6b70b79c</guid><category>my work</category><category>vision college assignments 2013</category><dc:creator>Katie Bolt</dc:creator><pubDate>Fri, 27 Feb 2015 09:36:00 GMT</pubDate></item><item><title>PAPO Uniform</title><description>&lt;p&gt;After an initial brainstorming session with many of the younger members of the Peninsula and Plains Orienteering Club I started putting together some designs based on ideas that came out of this. From there I got everyone to provide input as to what they thought worked and what didn't. The idea of a simple black, red and white design based around the traditional Canterbury region colours (but with a more crimson take on the red especially when printed on fabric) came out of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh5.googleusercontent.com/-Fc5i2tsgOEI/VP1kEZlSvfI/AAAAAAAAGWA/hJG9WruP4A8/s640/PAPO-Uniform-Proposal.png" alt="PAPO uniform proposal"&gt;&lt;/p&gt;
+
+&lt;p&gt;I then refined the design and presented our proposal to the club committee for final approval before the design was sent off to Trimtex to be made. In the end the club were very happy with the final outcome and it's quite exciting to see members running at events wearing these tops.&lt;/p&gt;
+
+&lt;p&gt;At the same time I was also re-designing the club logo. I knew that the committee was quite attached to the old logo so rather than create a completely new look I went with the idea of a modernised version of the current logo using the new colours of red, white and black.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-ZNZU6vLkO3s/VP1kE7fvwWI/AAAAAAAAGV8/qzkDHea6gnI/s400/logos.png" alt="PAPO club logo"&gt;&lt;/p&gt;</description><link>http://www.katiebolt.com/papo-uniform/</link><guid isPermaLink="false">1edc1fd7-3d49-4bb8-bc0d-b44f92c1554e</guid><category>my work</category><category>PAPO</category><dc:creator>Katie Bolt</dc:creator><pubDate>Mon, 23 Feb 2015 23:00:00 GMT</pubDate></item><item><title>CSS Assignment: New Zealand National Parks</title><description>&lt;p&gt;My second major assignment with Vision College was to create a &lt;a href="http://katiedemo.cloudapp.net/nznationalparks/"&gt;website on New Zealand's National Parks&lt;/a&gt; using the CSS skills we had been studying.&lt;/p&gt;
+
+&lt;p&gt;I used this site to play around with different techniques I was interested in, including some CSS3 properties. One of the first things I wanted was a transition for the hover in my main menu, with the tab rising up as though you were pulling it out. I also wanted to use a gradient to give the tabs a more rounded, almost 3D feel.&lt;/p&gt;
+
+&lt;pre rel="CSS" class="lang-css"&gt;  
+&lt;code class="css"&gt;  
+nav ul li a {  
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: #405127;
+  background-image: -webkit-linear-gradient(top, #687F37, #405127 90%);
+  background: linear-gradient(to bottom, #687F37, #405127 90%);
+  -webkit-transition:height 500ms, background-color 500ms;
+  transition: height 500ms, background-color 500ms;
+}
+
+nav ul li a:hover {  
+  background-color: #6A7B45;
+  background-image: -webkit-linear-gradient(top, #A9A868, #6A7B45 80%);
+  background: linear-gradient(to bottom, #A9A868, #6A7B45 80%);
+  color: #302508;
+  height: 50px;
+}
+
+&lt;/code&gt;  
+&lt;/pre&gt;
+
+&lt;p&gt;The transition property happens on the a tag rather than the hover so that the transition effect occurs in both directions. If it was on the hover instead then you would only get the transition when you hovered over the element and not when you moved away again.&lt;/p&gt;
+
+&lt;p&gt;The assignment required a gallery with a lightbox and we were given a jquery plugin we could use but I had found a method just using CSS (based on the &lt;a href="http://tympanus.net/codrops/2011/12/26/css3-lightbox/"&gt;CSS3 Lightbox&lt;/a&gt;) so was keen to try that out. It took a bit of playing around with to get it to work how I wanted but was pretty exciting once I got it working. I love a challenge!&lt;/p&gt;</description><link>http://www.katiebolt.com/new-zealand-national-parks/</link><guid isPermaLink="false">1c14ffb9-e88e-468c-8e14-fb93355dd526</guid><category>my work</category><category>vision college assignments 2013</category><dc:creator>Katie Bolt</dc:creator><pubDate>Tue, 17 Feb 2015 23:00:00 GMT</pubDate></item><item><title>Tables Assignment: Canterbury Tourism Development</title><description>&lt;p&gt;My first assignment at Vision College was to create &lt;a href="http://katiedemo.cloudapp.net/canterburytourism/"&gt;basic tables website&lt;/a&gt; using mostly inline styles instead of an external stylesheet although I ended up using a very basic external css for elements such as the headers and links. The brief revolved around creating a site for &lt;a href="http://katiedemo.cloudapp.net/canterburytourism/"&gt;Canterbury Tourism&lt;/a&gt;. We were provided with some images and graphics but I designed my own header and Canterbury map.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-d5fBReCY4Wg/VPgDije9SPI/AAAAAAAAGSM/rncT732svh4/s800/9yqi5m4m.jpg" alt="Canterbury Tourism Development header"&gt;&lt;/p&gt;
+
+&lt;p&gt;To get the look I wanted I needed to nest tables within tables, especially for the top navigation.&lt;/p&gt;
+
+&lt;pre rel="HTML" class="lang-html"&gt;  
+&lt;code class="html"&gt;  
+&amp;lt;!-- Navigation --&amp;gt;
+&amp;lt;tr&amp;gt;
+    &amp;lt;td colspan="2" style="text-align:center; padding:0"&amp;gt;
+        &amp;lt;table style="border-collapse:collapse"&amp;gt;
+            &amp;lt;tr&amp;gt;
+                &amp;lt;td style="width:156px; background-color:#024A68; padding:0; border:2px white solid"&amp;gt;
+                &amp;lt;/td&amp;gt;
+                &amp;lt;td style="width:156px; background-color:#0772A1; padding:5px; border:2px white solid"&amp;gt;
+                    &amp;lt;a href="index.html"&amp;gt;Home&amp;lt;/a&amp;gt;
+                &amp;lt;/td&amp;gt;
+
+&lt;/code&gt;  
+&lt;/pre&gt;
+
+&lt;p&gt;It actually can be pretty handy be able to put together a good tables design as I discovered later on when creating marketing emails for List Sell Trade. Tables with inline styles are still the best way to get a consistent design (or as close to it as possible!) accross all different email clients as div tags are not supported by many email clients.&lt;/p&gt;</description><link>http://www.katiebolt.com/canterbury-tourism-development/</link><guid isPermaLink="false">3fb7ab75-d617-4413-b045-2097fc60a896</guid><category>my work</category><category>vision college assignments 2013</category><dc:creator>Katie Bolt</dc:creator><pubDate>Mon, 16 Feb 2015 23:00:00 GMT</pubDate></item><item><title>Design work for Tour de Peninsula</title><description>&lt;p&gt;My most recent project was designing a brochure, certificates and the race singlets for Tour de Peninsula, run by my local orienteering club, Peninsula and Plains (aka PAPO). I do a lot of design-type work for the club on a volunteer basis including the current club orienteering top, certificates and promotional material. It's pretty fun as I pretty much get free rein which I wouldn't get elsewhere.&lt;/p&gt;
+
+&lt;p&gt;The first design project for Tour de Peninsula was the promotional brochure, a double-sided DL flyer giving out the basic information for the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh5.googleusercontent.com/-zakS7WDhof8/VP1kl6W8VzI/AAAAAAAAGWI/vhVyjbOYXPk/s500/brochure-white.jpg" alt="Tour de Peninsula brochure"&gt;&lt;/p&gt;
+
+&lt;p&gt;There were also overall certificates for 1st, 2nd and 3rd. These are printed in advance and are 'general', as in they don't have space for a name. There has been a bit of debate about this in the past within the club but it ends up being the easiest way to go for everyone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-uYGIn9fQHUE/VOBVNKqjVxI/AAAAAAAAGQg/3xZ78HJq7M8/s800/certificates-tdp.jpg" alt="Tour de Peninsula certificate example"&gt;&lt;/p&gt;
+
+&lt;p&gt;The really fun part about this particular project was designing the 4 different singlets required, based around the jerseys in the Tour de France (for both men and women): &lt;br&gt;
+&lt;strong&gt;Le Maillot Jaune:&lt;/strong&gt; the yellow jersey is worn by the current leader of the cumulative results of the Tour.&lt;br&gt;
+&lt;strong&gt;Le Maillot Blanc:&lt;/strong&gt; the white jersey is worn by the current young leader (under the age of 21 for this competition).&lt;br&gt;
+&lt;strong&gt;Le Maillot Vert:&lt;/strong&gt; the green jersey is worn by the current leader of the "Sprint" competition.&lt;br&gt;
+&lt;strong&gt;Le Maillot a pois Rouge:&lt;/strong&gt; the red and white spotty jersey is worn by the current leader of the "King of the Mountains" competition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh4.googleusercontent.com/-ZewMsXOH-Dk/VOBNyEZTc1I/AAAAAAAAGPY/aL5muUG9xUA/s800/20150203_165329.jpg" alt="Tour de Peninsula singlets"&gt;&lt;/p&gt;
+
+&lt;p&gt;I went with a fun, cartoon-type style but firmly cementing it within the Canterbury/Banks Peninsula region. At first the idea of having a control flag in each map location was proving difficult as many were clustered around a small area but it really came to life in the end. I was pretty happy with how they turned out but I find it quite surreal to see clothing you've designed on the computer in real life! Below you can see a couple of the singlets in action during the weekend.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/-kVWfNgAx9ts/VOBRN7yHMTI/AAAAAAAAGPs/-5231KSE9VU/s800/singlets-in-action.jpg" alt="A couple of the singlets in action"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Mike Harding and Jan Harrison for the singlet photos.&lt;/em&gt;&lt;/p&gt;</description><link>http://www.katiebolt.com/tour-de-peninsula/</link><guid isPermaLink="false">63b2e9d0-cd02-4174-903e-65f219cd94d0</guid><category>my work</category><category>design</category><category>print</category><category>PAPO</category><dc:creator>Katie Bolt</dc:creator><pubDate>Sun, 15 Feb 2015 08:15:23 GMT</pubDate></item></channel></rss>

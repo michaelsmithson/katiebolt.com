@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://www.katiebolt.com/sitemap.xml
+Disallow: /ghost/

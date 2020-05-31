@@ -1,0 +1,345 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Katie Codes</title>
+    <meta name="description" content="Thoughts, stories and ideas.">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--<link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=ba33b8964e" />-->
+    <link rel="stylesheet" href="assets/css/normalize.css?v=ba33b8964e">
+    <link rel="stylesheet" href="assets/css/main.css?v=ba33b8964e">
+    <link rel="stylesheet" href="assets/css/monokai_sublime.css?v=ba33b8964e">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript" charset="utf-8"></script>
+    <![endif]-->
+
+    <link rel="canonical" href="index.html">
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="Katie Codes" href="rss/index.html">
+</head>
+<body class="home-template">
+    <div class="container">
+        <header id="top">
+            <a class="name" href="index.html">Katie Codes</a>
+            <div class="top-nav-container">
+                <nav id="top-nav">
+                    <a href="tag/my-work/">My Work</a><!--
+                    --><!--<a href="http://www.katiebolt.com/blog">Blog</a>--><!--
+                    --><a href="about-me/">About Me</a><!--
+                    --><a href="contact-me/">Contact Me</a>
+                </nav><!--
+                --><div class="search-box-container">
+                    <form>
+                        <span class="search-box-span"><input type="text-box" id="search-field" class="search-box" placeholder="Search Katie Codes..."></span><!--
+                        --><span class="search-btn-span"><input type="submit" class="search-btn" value="">
+                    </span></form>
+                </div>
+            </div>
+        </header>
+        <div class="content-container">
+            <main class="main-content">
+                <section id="results"></section>
+                
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="concept-designs-for-wordpress-blog/">Concept designs for WordPress blog</a></h2>
+                    <time datetime="2015-03-19" class="blog-time">19 March 2015</time>
+                    <p>I am currently working on the design for my cousin's blog. She will be using Wordpress so I will be building a custom template for her. So far I have 2 simple layouts based on her brief and am working on a 3rd one. From there we can then narrow down what will work for her and proceed from there.</p>
+
+<p style="text-align:Center">Layout idea #1:</p>  
+
+<p><img src="https://lh4.googleusercontent.com/-R36oGKvydeo/VQqEeKLBOdI/AAAAAAAAGZY/JEb-TRdmav8/s500/layout.jpg" alt="Layout idea #1"></p>
+
+<p style="text-align:Center">Layout idea #2:</p>  
+
+<p><img src="https://lh3.googleusercontent.com/-Xxf3fQnd2PY/VQqEdxwh_sI/AAAAAAAAGZU/9n-tlzyffQo/s500/layout-2.jpg" alt="Layout idea #2"></p>
+
+<p>I normally use InDesign for laying out my initial designs as I find it more flexible than Photoshop for moving elements around and playing with text.</p>
+                    <div class="tags">Filed under: <a href="tag/wordpress/">WordPress</a>, <a href="tag/web-design/">web design</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="architecting-happiness-ux-conference-2015/">Architecting Happiness UX Conference 2015</a></h2>
+                    <time datetime="2015-03-09" class="blog-time">09 March 2015</time>
+                    <p>At the end of February I flew to Wellington to attend the <a href="http://wiadwellington.com/">Architecting Happiness UX Conference</a> for <a href="http://2015.worldiaday.org/">World IA Day 2015</a>. Having travelled up by myself and not knowning anyone else attending I was a bit nervous but once it started I was hooked!</p>
+
+<p>There were 9 speakers throughout the day all talking about the idea of Architecting Happiness in relation to the user experience and although they were all talking about the same topic they came at it from so many different angles. </p>
+
+<p>There was everything from Jesse James Garrett taking us through the emotional rollercoaster of UX and its broader reaches (now very keen to see the documentary Visions of Light about the art of cinematography, as well as to read 'The Elements of User Experience'), to Trent Mankelow from Trade Me taking us through some of the steps for actually creating a happy user experience (as well as some things that aren't so happy!). I came out super inspired to start creating some awesome work!</p>
+                    <div class="tags">Filed under: <a href="tag/web-design/">web design</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="twilight-and-shadow/">Twilight and Shadow blog</a></h2>
+                    <time datetime="2015-03-09" class="blog-time">09 March 2015</time>
+                    <p><a href="http://blog.katiebolt.com/">Twilight and Shadow</a> is my own personal blog documenting sporting and other adventures. I migrated it over from blogger to <a href="https://ghost.org/">ghost</a> so I could learn some new things and have a bit of fun along the way. Ghost uses node.js and handlebar templating.</p>
+
+<pre rel="Handlebars" class="lang-html">  
+<code class="html">  
+{{#foreach posts}}
+    &lt;article class="{{post_class}}"&gt;
+        &lt;header class="post-header"&gt;
+            &lt;span class="post-meta"&gt;&lt;time datetime="{{date format='YYYY-MM-DD'}}"&gt;{{date format="DD MMMM YYYY"}}&lt;/time&gt;&lt;/span&gt;
+            &lt;h1&gt;&lt;a href="{{url}}"&gt;{{{title}}}&lt;/a&gt;&lt;/h1&gt;
+        &lt;/header&gt;
+        &lt;section&gt;
+            &lt;p&gt;{{content}}&lt;/p&gt;
+        &lt;/section&gt;
+        &lt;span class="post-meta"&gt;{{tags}}&lt;/span&gt;&lt;br /&gt;
+        &lt;a href='{{url absolute="true"}}#discourse-comments'&gt;Comment on this post&lt;/a&gt;
+    &lt;/article&gt;
+{{/foreach}}
+
+</code>  
+</pre>
+
+<p>I designed my own personal theme, laying out my initial design in Adobe InDesign, then putting together a basic html version before setting up the real template. My next task is to make the template responsive.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-ZcBbWZVlcHk/VP6gWF_dRYI/AAAAAAAAGWc/a6vsxJCHDVI/s800/twilight-header.jpg" alt="Twilight and Shadow"></p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="canterbury-rogaine-series/">Canterbury Rogaine Series</a></h2>
+                    <time datetime="2015-03-08" class="blog-time">08 March 2015</time>
+                    <p>My final project was making a website for a friend who organises rogaines and adventure racing events. This site is live at <a href="http://canterburyrogaine.com/">canterburyrogaine.com</a>. The Canterbury Rogaine site provides information for coming events, an online entry system for these events, and results/reports from the events when they have completed.</p>
+
+<p>The main challenge in this site has been implementing the entry system, as each event has different courses, grades, and entry fee structures. Additionally, adding in support for adventure races meant that fees would then be per team rather than per person but rogaines were still charged per person. The entry system is a constantly evolving project.</p>
+
+<p>Additionally the CMS/admin side of the website allows the administrator to configure details for a new event, upload results files once events are finished, add event reports and edit the text found on the home page. I am also planning to make some of the other pages have editable sections (for example, the About Us page, allowing the administrator to update content as appropriate). The entries for each event are also editable. If the same name and email address is used again to enter a 2nd event the database will recognise this and use the same person rather than adding a new database entry.</p>
+
+<p>Below is the original table structure for the Canterbury Rogaine Series database. It has since evolved slightly to account for new features required:</p>
+
+<p><img src="https://lh4.googleusercontent.com/-5Ui5-uRNCyE/VP6ruE3lKWI/AAAAAAAAGW0/MIQDgscjnIk/s450/canterbury-rogaine-table-structure.jpg" alt="Initial table structue for the Canterbury Rogaine Series database"></p>
+
+<p>The site is built using ASP.NET web forms. As with my Real Estate ASP.NET assignment, I found the built-in data source controls limiting so mostly used the code-behind pages get the site to do what was required. It also helped my knowledge of using C#.</p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/vision-college-assignments-2013/">vision college assignments 2013</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="newbode-real-estate/">ASP.Net/C# Assignment: Newbode Real Estate</a></h2>
+                    <time datetime="2015-03-07" class="blog-time">07 March 2015</time>
+                    <p>For my ASP.Net/C# assignment at Vision College the brief was to create a Real Estate website with a custom CMS. From the CMS you are able to add and update and delete regions, districts and suburbs (each property must be placed within one of these suburbs):</p>
+
+<p><img src="https://lh5.googleusercontent.com/-eTcLJ08Ze5U/VPuUG4DqxaI/AAAAAAAAGS8/0z2twbvOJ5s/s500/newbode-regions.jpg" alt="Updating the district the suburb belongs to"></p>
+
+<p>You are also able to add, edit and delete property listings. Each property requires you to fill out all the details on the form before allowing you to proceed. If there are no pictures for the property it will use a default placeholder image. If you are wanting to find a certain property you wish to edit you can use the region/district/suburb filters to narrow down your options.</p>
+
+<p><img src="https://lh3.googleusercontent.com/-TqaM811R8YY/VPuV9taVs7I/AAAAAAAAGTM/3xbW1iHxfhk/s600/newbode-property-edit.jpg" alt="Editing a property"></p>
+
+<p>The CMS also allows you to add property news items which appear on the left-hand side of the site and to add new office locations (shown on the left-hand side of the site when you are on the <a href="http://katiedemo.cloudapp.net/newboderealestate/ContactUs.aspx">Contact Us</a> page). You can also add, edit and delete new admin users.</p>
+
+<p>If you are browsing the site you are able to create an account so you can save properties to a wishlist. If you try to add a property to your wishlist and you are not logged in you will be prompted to do so.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-8_HQCSIGXTI/VPuSomHvHaI/AAAAAAAAGSo/oRwbgB7dYVs/s600/newbode-wishlist.jpg" alt="Adding properties to my wishlist"></p>
+
+<p>The front-end is built using an overall master page which holds the header, footer and main menu. This allowed me to use the same master page for the entire site (as the home page does not use a sidebar). The left sidebar and main content section are laid out within the child master page. I then set up a user control file that holds all the layout and code for the property search. The code is contained within an UpdatePanel which allows you to refresh specific parts of the page rather than refreshing the entire page with a postback. This was important for me as I didn't want the page to keep having to reload every time you selected a different region for example (as once you select a region it needs to search the database to find the corresponding districts etc).</p>
+
+<p>I quickly discovered the limitations of the built-in data source controls and found it easier to work with the code-behind pages which certainly improved my C#!</p>
+
+<p>I've used several different jQuery plugins on the front-end of this site. The home page slideshow is using <a href="http://daledavies.github.io/jQuery-Easy-Slides/">jQuery Easy Slides</a>. It's just a basic slider that transitions between various images.</p>
+
+<p>The property listings page use a version of <a href="http://www.gmarwaha.com/jquery/jcarousellite/">jCarouselLite</a> allowing you to scroll through the photos. The property details page uses a different version of <a href="http://www.gmarwaha.com/jquery/jcarousellite/">jCarouselLite</a> to scroll through the thumbnail photos and <a href="http://fancybox.net/">fancybox</a> for the image gallery once you click on a thumbnail.</p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/vision-college-assignments-2013/">vision college assignments 2013</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="lido-cinemas/">PHP Assignment: Lido Cinemas</a></h2>
+                    <time datetime="2015-02-27" class="blog-time">27 February 2015</time>
+                    <p>For my PHP/MySQL assignment the brief was to create a <a href="http://katiedemo.cloudapp.net/lidocinemas/">website for the Lido Cinema</a> including a functioning backend CMS for adding movies and session times. I had fun putting together the artwork and designing the layout for this site.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-1hOpotL64oo/VQAN3kYbMBI/AAAAAAAAGYU/-rXzgeZfiqM/s600/0fdn8v96.jpg" alt="Lido Cinemas"></p>
+
+<p>The CMS allows you to add, edit and delete cinemas, movies, session times (for the date and time I used the jQuery timepicker), the pricing structure for tickets, and admin users.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-NxS7QEbxsVo/VQANSq83DZI/AAAAAAAAGYE/awpwDqSNbLg/s800/the-day-of-the-doctor-2.jpg" alt="Add a new movie"></p>
+
+<p>Once I'd finished the site my tutor suggested I try adding the functionality to book tickets to a session. This required a slight reworking of my table structure and some more jQuery but was a good challenge.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-ygqn_mK6ke4/VQANumK5yuI/AAAAAAAAGYM/ZcHdmNwwpyQ/s400/lido-booking.jpg" alt="Buying tickets"></p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/vision-college-assignments-2013/">vision college assignments 2013</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="papo-uniform/">PAPO Uniform</a></h2>
+                    <time datetime="2015-02-23" class="blog-time">23 February 2015</time>
+                    <p>After an initial brainstorming session with many of the younger members of the Peninsula and Plains Orienteering Club I started putting together some designs based on ideas that came out of this. From there I got everyone to provide input as to what they thought worked and what didn't. The idea of a simple black, red and white design based around the traditional Canterbury region colours (but with a more crimson take on the red especially when printed on fabric) came out of this.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-Fc5i2tsgOEI/VP1kEZlSvfI/AAAAAAAAGWA/hJG9WruP4A8/s640/PAPO-Uniform-Proposal.png" alt="PAPO uniform proposal"></p>
+
+<p>I then refined the design and presented our proposal to the club committee for final approval before the design was sent off to Trimtex to be made. In the end the club were very happy with the final outcome and it's quite exciting to see members running at events wearing these tops.</p>
+
+<p>At the same time I was also re-designing the club logo. I knew that the committee was quite attached to the old logo so rather than create a completely new look I went with the idea of a modernised version of the current logo using the new colours of red, white and black.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-ZNZU6vLkO3s/VP1kE7fvwWI/AAAAAAAAGV8/qzkDHea6gnI/s400/logos.png" alt="PAPO club logo"></p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/papo/">PAPO</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="new-zealand-national-parks/">CSS Assignment: New Zealand National Parks</a></h2>
+                    <time datetime="2015-02-17" class="blog-time">17 February 2015</time>
+                    <p>My second major assignment with Vision College was to create a <a href="http://katiedemo.cloudapp.net/nznationalparks/">website on New Zealand's National Parks</a> using the CSS skills we had been studying.</p>
+
+<p>I used this site to play around with different techniques I was interested in, including some CSS3 properties. One of the first things I wanted was a transition for the hover in my main menu, with the tab rising up as though you were pulling it out. I also wanted to use a gradient to give the tabs a more rounded, almost 3D feel.</p>
+
+<pre rel="CSS" class="lang-css">  
+<code class="css">  
+nav ul li a {  
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: #405127;
+  background-image: -webkit-linear-gradient(top, #687F37, #405127 90%);
+  background: linear-gradient(to bottom, #687F37, #405127 90%);
+  -webkit-transition:height 500ms, background-color 500ms;
+  transition: height 500ms, background-color 500ms;
+}
+
+nav ul li a:hover {  
+  background-color: #6A7B45;
+  background-image: -webkit-linear-gradient(top, #A9A868, #6A7B45 80%);
+  background: linear-gradient(to bottom, #A9A868, #6A7B45 80%);
+  color: #302508;
+  height: 50px;
+}
+
+</code>  
+</pre>
+
+<p>The transition property happens on the a tag rather than the hover so that the transition effect occurs in both directions. If it was on the hover instead then you would only get the transition when you hovered over the element and not when you moved away again.</p>
+
+<p>The assignment required a gallery with a lightbox and we were given a jquery plugin we could use but I had found a method just using CSS (based on the <a href="http://tympanus.net/codrops/2011/12/26/css3-lightbox/">CSS3 Lightbox</a>) so was keen to try that out. It took a bit of playing around with to get it to work how I wanted but was pretty exciting once I got it working. I love a challenge!</p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/vision-college-assignments-2013/">vision college assignments 2013</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="canterbury-tourism-development/">Tables Assignment: Canterbury Tourism Development</a></h2>
+                    <time datetime="2015-02-16" class="blog-time">16 February 2015</time>
+                    <p>My first assignment at Vision College was to create <a href="http://katiedemo.cloudapp.net/canterburytourism/">basic tables website</a> using mostly inline styles instead of an external stylesheet although I ended up using a very basic external css for elements such as the headers and links. The brief revolved around creating a site for <a href="http://katiedemo.cloudapp.net/canterburytourism/">Canterbury Tourism</a>. We were provided with some images and graphics but I designed my own header and Canterbury map.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-d5fBReCY4Wg/VPgDije9SPI/AAAAAAAAGSM/rncT732svh4/s800/9yqi5m4m.jpg" alt="Canterbury Tourism Development header"></p>
+
+<p>To get the look I wanted I needed to nest tables within tables, especially for the top navigation.</p>
+
+<pre rel="HTML" class="lang-html">  
+<code class="html">  
+&lt;!-- Navigation --&gt;
+&lt;tr&gt;
+    &lt;td colspan="2" style="text-align:center; padding:0"&gt;
+        &lt;table style="border-collapse:collapse"&gt;
+            &lt;tr&gt;
+                &lt;td style="width:156px; background-color:#024A68; padding:0; border:2px white solid"&gt;
+                &lt;/td&gt;
+                &lt;td style="width:156px; background-color:#0772A1; padding:5px; border:2px white solid"&gt;
+                    &lt;a href="index.html"&gt;Home&lt;/a&gt;
+                &lt;/td&gt;
+
+</code>  
+</pre>
+
+<p>It actually can be pretty handy be able to put together a good tables design as I discovered later on when creating marketing emails for List Sell Trade. Tables with inline styles are still the best way to get a consistent design (or as close to it as possible!) accross all different email clients as div tags are not supported by many email clients.</p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/vision-college-assignments-2013/">vision college assignments 2013</a></div>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="post-title h1-post-title"><a href="tour-de-peninsula/">Design work for Tour de Peninsula</a></h2>
+                    <time datetime="2015-02-15" class="blog-time">15 February 2015</time>
+                    <p>My most recent project was designing a brochure, certificates and the race singlets for Tour de Peninsula, run by my local orienteering club, Peninsula and Plains (aka PAPO). I do a lot of design-type work for the club on a volunteer basis including the current club orienteering top, certificates and promotional material. It's pretty fun as I pretty much get free rein which I wouldn't get elsewhere.</p>
+
+<p>The first design project for Tour de Peninsula was the promotional brochure, a double-sided DL flyer giving out the basic information for the event.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-zakS7WDhof8/VP1kl6W8VzI/AAAAAAAAGWI/vhVyjbOYXPk/s500/brochure-white.jpg" alt="Tour de Peninsula brochure"></p>
+
+<p>There were also overall certificates for 1st, 2nd and 3rd. These are printed in advance and are 'general', as in they don't have space for a name. There has been a bit of debate about this in the past within the club but it ends up being the easiest way to go for everyone.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-uYGIn9fQHUE/VOBVNKqjVxI/AAAAAAAAGQg/3xZ78HJq7M8/s800/certificates-tdp.jpg" alt="Tour de Peninsula certificate example"></p>
+
+<p>The really fun part about this particular project was designing the 4 different singlets required, based around the jerseys in the Tour de France (for both men and women): <br>
+<strong>Le Maillot Jaune:</strong> the yellow jersey is worn by the current leader of the cumulative results of the Tour.<br>
+<strong>Le Maillot Blanc:</strong> the white jersey is worn by the current young leader (under the age of 21 for this competition).<br>
+<strong>Le Maillot Vert:</strong> the green jersey is worn by the current leader of the "Sprint" competition.<br>
+<strong>Le Maillot a pois Rouge:</strong> the red and white spotty jersey is worn by the current leader of the "King of the Mountains" competition.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-ZewMsXOH-Dk/VOBNyEZTc1I/AAAAAAAAGPY/aL5muUG9xUA/s800/20150203_165329.jpg" alt="Tour de Peninsula singlets"></p>
+
+<p>I went with a fun, cartoon-type style but firmly cementing it within the Canterbury/Banks Peninsula region. At first the idea of having a control flag in each map location was proving difficult as many were clustered around a small area but it really came to life in the end. I was pretty happy with how they turned out but I find it quite surreal to see clothing you've designed on the computer in real life! Below you can see a couple of the singlets in action during the weekend.</p>
+
+<p><img src="https://lh3.googleusercontent.com/-kVWfNgAx9ts/VOBRN7yHMTI/AAAAAAAAGPs/-5231KSE9VU/s800/singlets-in-action.jpg" alt="A couple of the singlets in action"></p>
+
+<p><em>Thanks to Mike Harding and Jan Harrison for the singlet photos.</em></p>
+                    <div class="tags">Filed under: <a href="tag/my-work/">my work</a>, <a href="tag/design/">design</a>, <a href="tag/print/">print</a>, <a href="tag/papo/">PAPO</a></div>
+                </article>
+
+
+    <nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+
+
+             </main><!--
+            --><aside class="sidebar">
+                <section class="recent-posts">
+                    <h3>Recent Posts</h3> 
+                    <ul id="recent-posts">
+                    </ul>
+                </section>
+
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">Copyright © 2020 Katie Bolt</p>
+    </footer>
+
+    <script src="public/jquery.min.js?v=ba33b8964e"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=ba33b8964e"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=ba33b8964e"></script>
+    <script src="assets/js/highlight.pack.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="assets/js/moment.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="assets/js/jquery.ghostrecentposts.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="assets/js/jquery.ghostHunter.js?v=ba33b8964e" type="text/javascript"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/JavaScript">
+        $('#recent-posts').ghostRecent();
+
+        $("#search-field").ghostHunter({
+            results   : "#results"
+        });
+
+        $(document).ready(function() {
+            var currentUrl = document.URL;
+            console.log(currentUrl);
+            var kids = $('#top-nav').children();
+            for(var i=0;i<kids.length;i++) {
+                var link = kids.eq(i);
+                var url = link.attr('href');
+                //debugger;
+               console.log(url);
+                if (url === currentUrl) {
+                    ////kids[i]['className']='selected';
+                    link.addClass('selected');
+                }
+            }
+        });      
+    </script>
+</body>

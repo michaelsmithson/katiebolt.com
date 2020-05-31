@@ -1,0 +1,118 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>web design - Katie Codes</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <!--<link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=ba33b8964e" />-->
+    <link rel="stylesheet" href="../../assets/css/normalize.css?v=ba33b8964e">
+    <link rel="stylesheet" href="../../assets/css/main.css?v=ba33b8964e">
+    <link rel="stylesheet" href="../../assets/css/monokai_sublime.css?v=ba33b8964e">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript" charset="utf-8"></script>
+    <![endif]-->
+
+    <link rel="canonical" href="index.html">
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="Katie Codes" href="../../rss/index.html">
+</head>
+<body class="tag-template tag-web-design">
+    <div class="container">
+        <header id="top">
+            <a class="name" href="../../">Katie Codes</a>
+            <div class="top-nav-container">
+                <nav id="top-nav">
+                    <a href="../my-work/">My Work</a><!--
+                    --><!--<a href="http://www.katiebolt.com/blog">Blog</a>--><!--
+                    --><a href="../../about-me/">About Me</a><!--
+                    --><a href="../../contact-me/">Contact Me</a>
+                </nav><!--
+                --><div class="search-box-container">
+                    <form>
+                        <span class="search-box-span"><input type="text-box" id="search-field" class="search-box" placeholder="Search Katie Codes..."></span><!--
+                        --><span class="search-btn-span"><input type="submit" class="search-btn" value="">
+                    </span></form>
+                </div>
+            </div>
+        </header>
+        <div class="content-container">
+            <main class="main-content">
+                <section id="results"></section>
+                
+    <h1 class="main-header">web design</h1>
+                <article class="blog-post">
+                    <h2 class="post-title"><a href="../../concept-designs-for-wordpress-blog/">Concept designs for WordPress blog</a></h2>
+                    <time datetime="2015-03-19" class="blog-time-10">19 March 2015</time>
+                    I am currently working on the design for my cousin's blog. She will be using Wordpress so I will be building a custom template for her. So far I have 2 simple layouts based on her brief and am working on a 3rd one. From there we can then narrow<span class="continue">...<a href="../../concept-designs-for-wordpress-blog/">continue reading</a></span>
+                </article>
+
+                <article class="blog-post">
+                    <h2 class="post-title"><a href="../../architecting-happiness-ux-conference-2015/">Architecting Happiness UX Conference 2015</a></h2>
+                    <time datetime="2015-03-09" class="blog-time-10">09 March 2015</time>
+                    At the end of February I flew to Wellington to attend the Architecting Happiness UX Conference for World IA Day 2015. Having travelled up by myself and not knowning anyone else attending I was a bit nervous but once it started I was hooked! There were 9 speakers throughout the<span class="continue">...<a href="../../architecting-happiness-ux-conference-2015/">continue reading</a></span>
+                </article>
+
+
+    <nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+
+             </main><!--
+            --><aside class="sidebar">
+                <section class="recent-posts">
+                    <h3>Recent Posts</h3> 
+                    <ul id="recent-posts">
+                    </ul>
+                </section>
+
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">Copyright © 2020 Katie Bolt</p>
+    </footer>
+
+    <script src="../../public/jquery.min.js?v=ba33b8964e"></script>
+
+    <script type="text/javascript" src="../../assets/js/jquery.fitvids.js?v=ba33b8964e"></script>
+    <script type="text/javascript" src="../../assets/js/index.js?v=ba33b8964e"></script>
+    <script src="../../assets/js/highlight.pack.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="../../assets/js/moment.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="../../assets/js/jquery.ghostrecentposts.js?v=ba33b8964e" type="text/javascript"></script>
+    <script src="../../assets/js/jquery.ghostHunter.js?v=ba33b8964e" type="text/javascript"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/JavaScript">
+        $('#recent-posts').ghostRecent();
+
+        $("#search-field").ghostHunter({
+            results   : "#results"
+        });
+
+        $(document).ready(function() {
+            var currentUrl = document.URL;
+            console.log(currentUrl);
+            var kids = $('#top-nav').children();
+            for(var i=0;i<kids.length;i++) {
+                var link = kids.eq(i);
+                var url = link.attr('href');
+                //debugger;
+               console.log(url);
+                if (url === currentUrl) {
+                    ////kids[i]['className']='selected';
+                    link.addClass('selected');
+                }
+            }
+        });      
+    </script>
+</body>
